@@ -1,0 +1,35 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+#header {
+  background-color: #6FD08C;
+}
+#header .nav-cont {
+  width: 100%;
+  background-color: #fff !important;
+}
+#header .nav-cont .container .navbar {
+  margin-bottom: unset;
+  border: unset;
+}
+#header .navbar-default .navbar-nav > li.dropdown:hover > a,
+#header .navbar-default .navbar-nav > li.dropdown:hover > a:hover,
+#header .navbar-default .navbar-nav > li.dropdown:hover > a:focus {
+  background-color: #fff;
+  color: #555555;
+}
+#header li.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+#main {
+  min-height: 2000px;
+  background-image: url("../images/main-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+#footer {
+  min-height: 150px;
+  background-color: #6FD08C;
+}
